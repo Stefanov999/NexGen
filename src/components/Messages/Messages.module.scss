@@ -1,0 +1,23 @@
+.TableWrapper{
+    @media (max-width: 1000px) {
+        overflow-x:auto;
+    }
+}
+.table{
+width: 100%;
+border: 1px solid black;
+}
+.tableRow{
+background-color: rgb(163, 189, 202);
+}
+.tableTd{
+text-align: center;
+font-weight: bold;
+}
+.tableDel{
+text-align: center;
+font-weight: bold;
+&:hover{
+    color: rgb(188, 1, 1);
+}
+}

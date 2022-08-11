@@ -1,0 +1,218 @@
+
+.signUpWrapper{
+    text-align: center;
+    .info{
+        color: white;
+        float: right;
+        margin-right: 15%;
+        font-size: 50px;
+        max-width: 400px;
+        @media (max-width: 600px) {
+           display: none;
+        }
+    }
+    .signUpForm{
+        margin-top: 5% ;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(73, 184, 244);
+        margin-left: 15%;
+        margin-right: 85%;
+        justify-content: start;
+        gap: 10px;
+        border-radius: 20px 20px 20px 20px;
+        overflow: hidden;
+        border: 1px solid black;
+        transition: 2s;
+        @media (max-width: 600px) {
+            margin-top: 50px ;
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        h1{
+            color: white;
+        }
+        .signUpNames{
+            display: flex;
+            flex-direction: row; 
+            gap: 20px; 
+            margin-left: 1.5%;
+                          
+        }
+        .signUpSubmit{
+            width: 200px;
+            margin-left: 2.5%;
+            margin-right: 0;
+            background-color: rgb(244, 90, 73);
+            margin-bottom: 10px;
+        }
+        .signUpSubmitOK{
+            width: 200px;
+            margin-left: 2.5%;
+            margin-right: 0;
+            background-color: rgb(107, 244, 73);
+            margin-bottom: 50px;
+        }
+        input {
+            height: 30px;
+            border-radius: 5px 5px 5px 5px;
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            border: white;
+        }
+        select{
+            width: 100px;
+            border-radius: 5px 5px 5px 5px;
+            margin-left: 2.5%;
+        }
+        textarea{
+            border-radius: 5px 5px 5px 5px; 
+            min-height: 250px;
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .inputErrorOrigin{
+            color: black;
+            font-size: 18px;
+        }
+
+        .inputErrorOK{
+            color: rgb(49, 251, 49);
+            font-size: 18px;
+        }
+        .inputErrorNotOk{
+            color :red;
+            font-size: 18px;
+        }
+        span{
+            width: 95.5%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .signUpRobot{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            width: 200px;
+            margin-left: 2.5%;
+            margin-right: 0;
+            border-bottom: 1px solid white;
+            label{
+                white-space: nowrap;
+                font-size: 20px;
+                color: white;
+                font-weight: bold;
+            }
+        }
+        .fromResult{
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+    }
+    
+
+    .signUpFormOk{
+        margin-top: 5% ;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(7, 146, 141);
+        margin-left: 15%;
+        margin-right: 85%;
+        justify-content: start;
+        gap: 10px;
+        border-radius: 20px 20px 20px 20px;
+        transition: 2s;
+        overflow: hidden;
+        border: 1px solid black;
+        @media (max-width: 600px) {
+            margin-top: 50px ;
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        h1{
+            color: greenyellow;
+        }
+        .inputError{
+            color: greenyellow;
+        } 
+       
+        .signUpNames{
+            display: flex;
+            flex-direction: row; 
+            gap: 20px;    
+            margin-left: 1.5%;
+        }
+        .inputErrorOK{
+            color: rgb(49, 251, 49);
+            font-size: 18px;
+        }
+        .signUpSubmit{
+            width: 200px;
+            margin-left: 2.5%;
+            margin-right: 0;
+            background-color: rgb(244, 90, 73);
+            margin-bottom: 10px;
+        }
+        .signUpSubmitOK{
+            width: 200px;
+            margin-left: 2.5%;
+            margin-right: 0;
+            background-color: rgb(107, 244, 73);
+            margin-bottom: 10px;
+        }
+        input {
+            height: 30px;
+            border-radius: 5px 5px 5px 5px;
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            border: white;
+        }
+        select{
+            width: 100px;
+            border-radius: 5px 5px 5px 5px;
+            margin-left: 2.5%;
+        }
+        textarea{
+            border-radius: 5px 5px 5px 5px; 
+            min-height: 250px;
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        span{
+            width: 95.5%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .signUpRobot{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            width: 200px;
+            margin-left: 2.5%;
+            margin-right: 0;
+            border-bottom: 1px solid white;
+            label{
+                white-space: nowrap;
+                font-size: 20px;
+                color: white;
+                font-weight: bold;
+            }
+        }
+        .fromResult{
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+    }
+}
